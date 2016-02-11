@@ -5,7 +5,7 @@ Contact Ben Quigley at Berklee if you want help with any of this! Be sure to use
 ###Challenges
 
 1. **Saving and Opening a File**  
-Click the "Sample Data.xslx" file above to download it from this GitHub repository to your computer, and open it.
+Click the "Sample Data.xslx" file above to download it from this GitHub repository to your computer, and open it in Excel.
 
 2. **The Text to Columns Wizard**  
 Copy and paste the Program field from column C into column F.  
