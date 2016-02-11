@@ -14,6 +14,7 @@ Bonus points if the student in row 11, "Michel Foucault," throws an error, inste
 
 4. Write a formula in column H that shows the Major String value. To do this, write a [VLOOKUP](https://support.office.com/en-us/article/VLOOKUP-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1) function.  
 **Hint:** The Index for this function (its second argument) should be:  
+
     'majors lookup table'!$A$2:$B$42
 
 Here is an example. The values in italics are what you are being asked to create.
