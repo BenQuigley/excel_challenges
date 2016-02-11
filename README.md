@@ -32,8 +32,8 @@ Now that you know how to write VLOOKUP formulas, replace the "Program Name" form
 Write a formula that compares the student ID to the range of all the student IDs, returning "DUPE" if it is a duplicate and "-" otherwise. You can use [COUNTIF](https://support.office.com/en-us/article/COUNTIF-function-e0de10c6-f885-4e71-abb4-1f464816df34) to determine if the ID is a duplicate, and [IF](https://support.office.com/en-us/article/IF-function-69AED7C9-4E8A-4755-A9BC-AA8BBFF73BE2) 
 **Hint:** Same as in challenge 5, the COUNTIF will not work properly unless its range argument has [absolute reference indicators](https://blogs.office.com/2011/08/17/making-sense-of-dollar-signs-in-excel/).
 
-Here is an example showing the desired output for each field. The values in italics are what you are being asked to create.
+Here is an example showing the desired output for each field. The bold values are the sample data; the non-bold values are the requested output for each challenge.
 
 Berklee ID | Name | Program | Status | Program Code | Major | Program Name | Major Name | Duplicate?
 --- | --- | --- | --- | --- | --- | --- | --- | :---:
-0360009 | Bob Kelso | BM4.UNDL | FT | *BM4* | *UNDL* | *Bachelors* | *Undeclared* | -
+**0360009** | **Bob Kelso** | **BM4.UNDL** | **FT** | BM4 | UNDL | Bachelors | Undeclared | -
