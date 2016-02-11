@@ -1,6 +1,6 @@
 #Excel Challenges
 
-Contact user bquigley at the email domain "berklee, dot edu," (email address written strangely to avoid spambots), for help.
+Contact Ben Quigley at Berklee if you want help with any of this! Be sure to click the links, which go to the official Microsoft Excel documentation at [support.office.com](https://support.office.com/en-us/excel), if you get stuck.
 
 1. Download the "Sample Data.xslx" file from this GitHub repo.
 
@@ -13,9 +13,12 @@ Use the [Text to Columns](https://support.office.com/en-us/article/Split-names-b
 Bonus points if the student in row 11, "Michel Foucault," throws an error, instead of incorrectly displaying "Diploma" or "Bachelors" (since his code is "SNM", something I never told you about).
 
 4. Write a formula in column H that shows the Major String value. To do this, write a [VLOOKUP](https://support.office.com/en-us/article/VLOOKUP-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1) function.  
-**Hint:** The Index for this function (its second argument) should be:  
+**Hint:** The table_array (second argument) for this VLOOKUP should be:  
+    'indexes'!$A$2:$B$42
+The range_lookup argument can be 0.
 
-    'majors lookup table'!$A$2:$B$42
+5. Now that you know how to write VLOOKUPs 
+
 
 Here is an example. The values in italics are what you are being asked to create.
 
