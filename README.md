@@ -11,7 +11,6 @@ Click the "Sample Data.xslx" file above to download it from this GitHub reposito
 Copy and paste the Program field from column C into column F.  
 Use the [Text to Columns](https://support.office.com/en-us/article/Split-names-by-using-the-Convert-Text-to-Columns-Wizard-2cd989db-2b1f-4d89-b17b-534250ff9905) wizard (under Data -> Data Tools -> Text to Columns) to split Column F into two columns, F and G.  
 **Hint:** The delimiter should be whatever character separates the first column value from the second column value.  
-  
 **Note:** All of the challenges after this one (#2) can be solved by writing a formula. With each formula, you only have to write it once. Write the formula in row 2 in the requested column, then copy and paste it down into all the other rows.
 
 3. **Using IF (and Nested Formulas, and OR)**  
