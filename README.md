@@ -1,5 +1,5 @@
 #Excel Challenges
-Feel free to contact me if you want help with any of these. Be sure to use the hyperlinks on this page, which go to the official Microsoft Excel documentation at [support.office.com](https://support.office.com/en-us/excel), if you get stuck. This isn't meant to be a tutorial, mostly because the tutorials at the official site are so amazingly in-depth and helpful. So unless you already know how to do something, click the links!
+Feel free to contact me if you want help with any of these. Try the hyperlinks on this page first, which go to the official Microsoft Excel documentation at [support.office.com](https://support.office.com/en-us/excel), if you get stuck. This isn't meant to be a tutorial, mostly because the tutorials at the official site are so amazingly in-depth and helpful. So unless you already know how to do something, click the links!
 
 ###Challenges
 
