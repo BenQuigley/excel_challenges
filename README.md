@@ -34,6 +34,6 @@ Write a formula that compares the student ID to the range of all the student IDs
 
 Here is an example showing the desired output for each field. The values in italics are what you are being asked to create.
 
-Berklee ID | Name | Program | Credits Enrolled | Status | Program Code | Major | Program Name | Major Name | Duplicate?
---- | --- | --- | --- | --- | --- | --- | --- | --- | :---:
-0360009 | Bob Kelso | BM4.UNDL | 3 | FT | *BM4* | *UNDL* | *Bachelors* | *Undeclared* | -
+Berklee ID | Name | Program | Status | Program Code | Major | Program Name | Major Name | Duplicate?
+--- | --- | --- | --- | --- | --- | --- | --- | :---:
+0360009 | Bob Kelso | BM4.UNDL | FT | *BM4* | *UNDL* | *Bachelors* | *Undeclared* | -
