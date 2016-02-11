@@ -7,7 +7,7 @@ Hint: The delimiter should be whatever character separates the first column valu
 For instance:
 
 C | ... | E | F
---- |
+--- | --- | --- | ---
 **Program** | ... | **Program Code** | **Major**
 BM4.UNDL | ... | BM4 | UNDL
 
