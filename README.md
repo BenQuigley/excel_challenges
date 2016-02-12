@@ -28,7 +28,7 @@ Now that you know how to write VLOOKUP formulas, replace the "Program Name" form
 **Hint 2:** You have to add in dollar signs before the column and row in the range, just like in the range_lookup that I gave you for the previous challenge ($A$2:$B$42). The dollar signs' purpose is to indicate that the range of majors is an [absolute reference](https://blogs.office.com/2011/08/17/making-sense-of-dollar-signs-in-excel/) (meaning the range doesn't change when this formula is copied and pasted to another cell).
 
 6. **Using COUNTIF and Another Nested IF**  
-Write a formula that compares the student ID to the range of all the student IDs, returning "DUPE" if it is a duplicate and "-" otherwise. You can use [COUNTIF](https://support.office.com/en-us/article/COUNTIF-function-e0de10c6-f885-4e71-abb4-1f464816df34) to determine if the ID is a duplicate, and [IF](https://support.office.com/en-us/article/IF-function-69AED7C9-4E8A-4755-A9BC-AA8BBFF73BE2) 
+Write a formula that compares the student ID to the range of all the student IDs, returning "DUPE" if it is a duplicate and "-" otherwise. You can use [COUNTIF](https://support.office.com/en-us/article/COUNTIF-function-e0de10c6-f885-4e71-abb4-1f464816df34) to determine if the ID is a duplicate, and [IF](https://support.office.com/en-us/article/IF-function-69AED7C9-4E8A-4755-A9BC-AA8BBFF73BE2) to show the words "DUPE" only in that case.  
 **Hint:** Same as in challenge 5, the COUNTIF will not work properly unless its range argument has [absolute reference indicators](https://blogs.office.com/2011/08/17/making-sense-of-dollar-signs-in-excel/).
 
 Here is an example showing the desired output for each field. The bold values are the sample data; the non-bold values are the requested output for each challenge.
