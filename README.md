@@ -8,8 +8,8 @@ Click the "Sample Data.xslx" file above to download it from this GitHub reposito
 
 2. **The Text to Columns Wizard**  
 Copy and paste the Program field from column C into column F.  
-Use the [Text to Columns](https://support.office.com/en-us/article/Split-names-by-using-the-Convert-Text-to-Columns-Wizard-2cd989db-2b1f-4d89-b17b-534250ff9905) wizard (under Data -> Data Tools -> Text to Columns) to split Column F into two columns, F and G.  
-**Hint:** The delimiter should be whatever character separates the first column value from the second column value.  
+Use the [Text to Columns](https://support.office.com/en-us/article/Split-names-by-using-the-Convert-Text-to-Columns-Wizard-2cd989db-2b1f-4d89-b17b-534250ff9905) wizard (under Data -> Data Tools -> Text to Columns) to split Column F (like "BM4.UNDL") into two values: the value before the period (like "BM4") to remain in column F, and the value after the period (like "UNDL") to move to column G.  
+**Hint:** Because the "." character is used to separate the first part of the program from the second, it is called a "delimiter."
 **Note:** All of the challenges after this one (#2) can be solved by writing a formula. With each formula, you only have to write it once. Write the formula in row 2 in the requested column, then copy and paste it down into all the other rows.
 
 3. **Using IF (and Nested Formulas, and OR)**  
@@ -18,9 +18,9 @@ Write a formula in column G that displays "Bachelors" for students with the Prog
 
 4. **Using VLOOKUP (Easy Mode)**  
 Write a formula in column H that shows the Major String value. To do this, write a [VLOOKUP](https://support.office.com/en-us/article/VLOOKUP-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1) function.  
-**Hint:** The table_array (second argument) for this VLOOKUP should be:  
+**Hint:** The table_array (the second argument) for this VLOOKUP should be:  
     'indexes'!$A$2:$B$42  
-The range_lookup argument can be 0.
+Don't worry too much about the range_lookup (the fourth, last, and optional argument) for this kind of VLOOKUP.
 
 5. **Using VLOOKUP (Hard Mode)**  
 Now that you know how to write VLOOKUP formulas, replace the "Program Name" formula you wrote in challenge 3 (column H) with a VLOOKUP. This time, you can write the range_lookup argument yourself.  
