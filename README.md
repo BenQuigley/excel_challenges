@@ -14,7 +14,7 @@ Use the [Text to Columns](https://support.office.com/en-us/article/Split-names-b
 
 3. **Using IF (and Nested Formulas, and OR)**  
 Write a formula in column G that displays "Bachelors" for students with the Program Code "BM4", "Diploma" for "PDM" or "TWO". You can do this using the formula [IF](https://support.office.com/en-us/article/IF-function-69AED7C9-4E8A-4755-A9BC-AA8BBFF73BE2).  
-**Bonus:** You get bonus points if the student in row 11, "Michel Foucault," throws an error, instead of incorrectly displaying "Diploma" or "Bachelors" (since his code is "SNM", something I never told you about). You can do this using a second IF formula nested inside the first one, and also the formula [OR](https://support.office.com/en-us/article/OR-function-7d17ad14-8700-4281-b308-00b131e22af0).
+**Bonus:** You get bonus points if the student in row 11, "Michel Foucault," throws an error, instead of incorrectly displaying "Diploma" or "Bachelors" (since his code is "SNM", something I never told you about). You can do this using a second IF formula nested inside the first one, and/or the formula [OR](https://support.office.com/en-us/article/OR-function-7d17ad14-8700-4281-b308-00b131e22af0).
 
 4. **Using VLOOKUP (Easy Mode)**  
 Write a formula in column H that shows the Major String value. To do this, write a [VLOOKUP](https://support.office.com/en-us/article/VLOOKUP-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1) function.  
