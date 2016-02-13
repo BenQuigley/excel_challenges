@@ -20,7 +20,7 @@ Give column G the header "Program Name". Write a formula in column G that displa
 Write a formula in column H that shows the Major Name value (and give that column the header "Major Name"). To do this, write a [VLOOKUP](https://support.office.com/en-us/article/VLOOKUP-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1) function.  
 **Hint:** The table_array (the second argument) for this VLOOKUP should be:  
     'indexes'!$A$2:$B$42  
-Don't worry too much about the range_lookup (the fourth, last, and optional argument) for this kind of VLOOKUP.
+Leave the range_lookup (the fourth, last, and optional argument) blank for this kind of VLOOKUP.
 
 5. **Using VLOOKUP (Hard Mode)**  
 Now that you know how to write VLOOKUP formulas, replace the "Program Name" formula you wrote in challenge 3 (column H) with a VLOOKUP. This time, you can write the range_lookup argument yourself.  
